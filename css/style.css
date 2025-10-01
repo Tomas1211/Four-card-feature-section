@@ -21,19 +21,59 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--white);
   color: var(--grey500);
-  padding: 0;
+  padding: 0 1.875rem;
   margin: 0;
   min-height: 100vh;
+  line-height: 1.5;
 }
 
 .container {
   max-width: 1440px;
 }
 
+.intro {
+  text-align: center;
+  margin: 4em 0;
+}
+
+.intro-title--thin {
+  font-weight: 200;
+}
+
+.intro-title--bold {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.content-box {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 3rem hsl(0, 0%, 70%);
+}
+
+.content-box.supervisor {
+  border-top: 4px solid;
+  border-top-color: var(--cyan);
+}
+.content-box.team-builder {
+  border-top: 4px solid;
+  border-top-color: var(--red);
+}
+.content-box.karma {
+  border-top: 4px solid;
+  border-top-color: var(--orange);
+}
+.content-box.calculator {
+  border-top: 4px solid;
+  border-top-color: var(--blue);
+}
+
 h2 {
   font-size: clamp(1.5rem, 5vw, 3rem);
+  line-height: 1;
 }
 
 p {
-  font-size: clamp(1rem, 5vw, 1.2rem);
+  font-size: clamp(0.9375, 5vw, 1.2rem);
 }

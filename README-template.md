@@ -117,7 +117,7 @@ https://courses.kevinpowell.co/view/courses/conquering-responsive-layouts
 
 ## Author
 
-- Website - [Add your name here](https://tomas1211.github.io/Four-card-feature-section/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Tomas1211)
+- Website - [Four card feature section](https://tomas1211.github.io/Four-card-feature-section/)
+- Frontend Mentor - [@Tomas1211](https://www.frontendmentor.io/profile/Tomas1211)
 
 
